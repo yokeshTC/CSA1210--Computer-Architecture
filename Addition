@@ -1,0 +1,7 @@
+;8 Bit Addition
+LDA 0000
+MOV B,A
+LDA 0001
+ADD B
+STA 0002
+HLT
